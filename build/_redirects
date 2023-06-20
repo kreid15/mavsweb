@@ -1,7 +1,0 @@
-# Redirect rules
-/ /teams
-/players /players
-/form /form
-
-# 404 fallback
-/* /teams
