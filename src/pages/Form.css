@@ -1,0 +1,40 @@
+*{
+    font-family: 'Gotham';
+}
+.scoutR{
+    min-height: 500px;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.formFields {
+    display: flex;
+    max-width: 750px;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    
+}
+.row2{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: auto;
+}
+
+.scout
+{
+    position: relative;
+    text-align: center;
+    font-family: 'Gotham-Ultra';
+    font-size: 100px;
+    margin: 16px;
+}
+.scoutN{
+    width: 1200px;
+    margin: auto;
+}
+.bigbutton{
+    margin: auto;
+}

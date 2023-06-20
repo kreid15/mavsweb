@@ -1,0 +1,249 @@
+.top{
+  position: relative;
+  text-align: center;
+  font-family: 'Gotham';
+}
+.player-image {
+    width: 1440px;
+    height: auto;
+    position: relative;
+    padding-top: 100px;
+    text-align: center;
+
+    z-index: 0;;
+}
+.rect{
+  top: 220px;
+  position: absolute;
+}
+.teamName{
+  position: absolute;
+  top: 0;
+  left: 25%;
+  font-size: 240px;
+  font-family: 'Gotham';
+  background-color: rgba(0, 0, 0, 0);
+
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0),rgba(152, 1, 46));
+
+  background-size: 100%;
+  background-repeat: repeat;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.hash-tag{
+  position: absolute;
+  top: 560px;
+  left: 370px;
+  color: #F9A01A;
+
+  font-family: 'Gotham';
+  font-size: 54px;
+}
+.play-num{
+  font-size: 192px;
+  color: #F9A01A;
+
+  position: absolute;
+  top: 420px;
+  left: 395px;
+}
+.position{
+  font-size: 100px;
+  color: #F9A01A;
+
+  position: absolute;
+  top: 375px;
+  left: 875px;
+}
+
+.firstN{
+  position: absolute;
+  font-size: 75px;
+  color: #0C0C0F;
+
+  top: 160px;
+  left: 18px;
+}
+.lastN{
+  position: absolute;
+  font-size: 75px;
+  color: white;
+
+  text-shadow:
+    -1px -1px 0 #0C0C0F, 
+    1px -1px 0 #0C0C0F, 
+    -1px 1px 0 #0C0C0F, 
+    1px 1px 0 #0C0C0F; 
+
+  background-clip: text; 
+  
+  top: 230px;
+  left: 18px;
+}
+.height{
+  position:absolute;
+  font-size: 20px;
+  
+  color: #0C0C0F;
+  text-align: left;
+  left: 136px;
+  top: 445px;
+}
+.num1{
+  position:absolute;
+  font-size: 75px;
+  
+  color:#0C0C0F;
+  text-align: left;
+  left: 84px;
+  top: 448px; 
+}
+.num2{
+  position:absolute;
+  font-size: 75px;
+  
+  color:#0C0C0F;
+  text-align: left;
+  left: 174px;
+  top: 448px; 
+}
+.feet{
+  position:absolute;
+  font-size: 30px;
+  
+  color:#0C0C0F;
+  text-align: left;
+  left: 142px;
+  top: 520px;
+}
+.inches{
+  position:absolute;
+  font-size: 30px;
+  
+  color:#0C0C0F;
+  text-align: left;
+  left: 229px;
+  top: 520px;
+}
+.weight{
+  position:absolute;
+  font-size: 20px;
+  
+  color:#0C0C0F;
+  text-align: left;
+  left: 136px;
+  top: 623px; 
+}
+.weightNum{
+  position:absolute;
+  font-size: 75px;
+  
+  color:#0C0C0F;
+  text-align: left;
+  left: 62.5px;
+  top: 626px; 
+}
+.pounds{
+  position:absolute;
+  font-size: 30px;
+  
+  color:#0C0C0F;
+  text-align: left;
+  left: 195px;
+  top: 700px; 
+}
+.greyBox{
+  width: 100vw;
+  height: 500px;
+  background-color: rgb(57, 57, 57);
+  position: absolute;
+  top: 926px;
+  /* z-index: -1; */
+}
+.accolades{
+  font-size: 20px;
+  color: white;
+  
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  z-index: 1;
+}
+h4{
+  display: inline;
+  left: 50px;
+}
+/* p{
+  display: inline-block;
+  z-index: 2;
+  left: 1000px;
+  color: white;
+} */
+.season{
+  display: inline;
+  margin-left: 1000px;
+  position: relative;
+  color: white;
+}
+.award{
+  display: inline;
+  text-align: left;
+  color: white;
+}
+.accolades
+{
+  margin-left: 915px;
+  position: static;
+  font-weight: 500;
+  color:rgb(114, 117, 119)
+}
+.dividerA
+{
+  position: static;
+  margin-left: 1112px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: auto;
+}
+.born{
+  display: inline;
+  margin-left: -1100px;
+  margin-right: 55px;
+  position: static;
+  font-weight: 500;
+  color:rgb(114, 117, 119)
+}
+.date
+{
+  display: inline;
+  margin-left: 40px;
+  position: static;
+  font-weight: 500;
+  color: white;
+}
+.dividerB
+{
+  position: static;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 80px;
+}
+.lineAge
+{
+  display: flex;
+}
+.stats
+{
+  display: flex;
+  max-width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+}
+h2.stats{
+  font-family: "Gotham-Book";
+  font-size: 40px;
+}

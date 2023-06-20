@@ -1,0 +1,17 @@
+.ImageList{
+    display:flex;
+    flex-direction:column ;
+    margin:100px;
+    padding:100px;
+}
+@font-face {
+    font-family: 'Gotham';
+    src: url('../components/fonts/Gotham-Black.otf') format('otf'),
+        url('../components/fonts/Gotham-Bold.otf') format('otf'),
+        url('../components/fonts/Gotham-Book.otf') format('otf'),
+        url('../components/fonts/Gotham-Light.otf') format('otf'),
+        url('../components/fonts/Gotham-Thin.otf') format('otf'),
+        url('../components/fonts/Gotham-Medium.otf') format('otf'),
+        url('../components/fonts/Gotham-Ultra.otf') format('otf'),
+        url('../components/fonts/Gotham-XLight.otf') format('otf');
+}
