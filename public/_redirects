@@ -1,7 +1,6 @@
 # Redirect rules
+/*    /index.html    200
 / /teams
 /players /players
 /form /form
 
-# 404 fallback
-/* /teams
