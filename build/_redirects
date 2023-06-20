@@ -1,6 +1,7 @@
-/              /
-/Players       /Players
-/Form /Form
-/*             /
+# Redirect rules
+/ /teams
+/players /players
+/form /form
 
-https://taupe-cajeta-1d793a.netlify.app/Form /Form
+# 404 fallback
+/* /teams
