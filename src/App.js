@@ -1,17 +1,17 @@
 import Players from "./pages/Players";
 import Teams from "./pages/Teams";
 import Form from "./pages/Form";
-import React, {Routes, Route } from "react-router-dom";
-import { BrowserRouter as Router } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Routes>
-          <Route exact path= "/" element={<Teams />} />
-          <Route exact path= "/players" element={<Players />} /> 
-          <Route exact path= "/form" element={<Form />} />
+          <Route path="/" element={<Teams />} />
+          <Route path="/players" element={<Players />} /> 
+          <Route path="/form" element={<Form />} />
         </Routes>
       </Router>
     </div>
