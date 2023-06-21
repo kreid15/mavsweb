@@ -1,6 +1,6 @@
 # Redirect rules
 /*    /index.html    200
-/ /teams
-/Players /players
+/ /Teams
+/Players /Players
 /Form /Form
 
