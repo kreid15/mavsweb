@@ -1,6 +1,8 @@
 # mavsweb
 Work in progress
+
 Link: https://phenomenal-chebakia-58aa9a.netlify.app/
+
 Mockup: https://www.figma.com/file/DL5j65BleaxpPFu1qm8vbU/Mav-Team-Pack?type=design&node-id=0%3A1&mode=design&t=URFlcFnFAFNZcAVu-1
 
 Designed and developed a visually appealing website for the Dallas Mavericks using React, showcasing Roster and Players Card pages. 
