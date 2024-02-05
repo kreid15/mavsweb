@@ -1,15 +1,19 @@
 import Header from '../components/Header';
-import Button from '@mui/material/Button';
+import {Button} from 'reactstrap';
 import Footer from "../components/Footer";
-import Team from "./Team";
+import Roster from "./Roster";
 import "./Teams.css";
 
 const Teams = () => {
   return (
     <>
       <Header />
-    <Button style={{marginLeft:"600px"}}href="/Players" variant='contained'>Players Details</Button>  
-      <Team/>
+    <Button style={{marginLeft:"600px"}}href="/Oladipo" type="button">
+      Players Details
+      </Button>  
+    <Button style={{marginLeft:"600px"}}href="/Profile" type="button">Profile</Button>
+      
+      <Roster/>
       <Footer/>
     </>
   );

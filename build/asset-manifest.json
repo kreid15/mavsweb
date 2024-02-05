@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.ad048eb4.js",
-    "static/js/787.6d3832bd.chunk.js": "/static/js/787.6d3832bd.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/static/css/main.b3f13a57.css",
+    "main.js": "/static/js/main.64e8b5ae.js",
+    "static/media/oladipo.png": "/static/media/oladipo.420ba5923afce596e945.png",
+    "static/media/Gotham-Black.otf": "/static/media/Gotham-Black.520408fe3462b1d14d05.otf",
+    "static/media/Gotham-Medium.otf": "/static/media/Gotham-Medium.a52599fa8cce74bab773.otf",
+    "static/media/Gotham-Ultra.otf": "/static/media/Gotham-Ultra.94094e103a504765e11c.otf",
+    "static/media/Gotham-XLight.otf": "/static/media/Gotham-XLight.18425da637e906b979dd.otf",
+    "static/media/Gotham-Book.otf": "/static/media/Gotham-Book.7f34eb053257cab413dc.otf",
+    "static/media/Gotham-Bold.otf": "/static/media/Gotham-Bold.eaee1032db0d2ff750d2.otf",
+    "static/media/Gotham-Thin.otf": "/static/media/Gotham-Thin.67d9a1ce07a626fdbf00.otf",
+    "static/media/Gotham-Light.otf": "/static/media/Gotham-Light.a21d1577f411612a2753.otf",
+    "static/media/logo.png": "/static/media/logo.23375fb1c84e5d5e7efd.png",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.ad048eb4.js.map": "/static/js/main.ad048eb4.js.map",
-    "787.6d3832bd.chunk.js.map": "/static/js/787.6d3832bd.chunk.js.map"
+    "main.b3f13a57.css.map": "/static/css/main.b3f13a57.css.map",
+    "main.64e8b5ae.js.map": "/static/js/main.64e8b5ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.ad048eb4.js"
+    "static/css/main.b3f13a57.css",
+    "static/js/main.64e8b5ae.js"
   ]
 }
