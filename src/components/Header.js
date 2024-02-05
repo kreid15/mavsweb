@@ -24,7 +24,9 @@ function Header() {
     >
       <Container>
         <Toolbar disableGutter>
+          <a href="/">
           <img src={teamLogo} alt="teams" className="team-Logo" />
+          </a>
           <Button variant="contained" href="/Form">
             Add Form
           </Button>

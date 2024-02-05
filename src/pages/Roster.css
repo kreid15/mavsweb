@@ -1,0 +1,35 @@
+.player-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates a grid with 3 equal columns */
+    gap: 20px; /* Adjust as needed */
+    width: 80%; /* Sets the width of the container to 80% */
+    margin: 0 auto; /* Centers the container */
+}
+.player-info {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.jersey {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.player-details{
+  position: absolute;
+  bottom: -20px;
+  text-align: left;
+  left: 10px;
+  margin: 0;
+  padding: 0;
+}
+.player-name,
+.player-number {
+  margin: 0;
+  line-height: .1;
+}
